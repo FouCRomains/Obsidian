@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+        <title>Defi SIMPLON / Boitron - Equipe 4</title>
+        <meta charset=utf-8>
+        
+        <!-- Liens vers les feuilles de style -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/themicons.css" rel="stylesheet">
+        <link href="css/player.css" rel="stylesheet">
+        
+        <!-- Polices  -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+            
+    </head>
+
+    <body> 
+        
+        <!-- NAVIGATION -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html" class="active">Videos</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="contact.html">Contact</a></li>                
+            </ul>
+        </nav>
+        
+        <!-- JUMBO -->
+        <div id="jumbo-light">
+            <h1>Obsidian</h1>
+        </div>
+
+        <div class="wrapper">
+        
+            <!-- VIDEOS -->
+            <aside class="centered">
+                <h2>Videos</h2>
+            </aside>
+            
+            <section id="videos">
+                <article>
+                    <a href="videos/like-a-rose.html"><img src="images/video-like-a-rose-530x300.jpg"></a>
+                    <a href="videos/like-a-rose.html">Like A Rose — Ashley Monroe</a>
+                </article>
+                <article>
+                    <a href="videos/big-love.html"><img src="images/video-big-love-550-530x300.jpg"></a>
+                    <a href="videos/big-love.html">Big Love — Carrie Rodriguez</a>
+                </article>
+                <article>
+                    <a href="videos/waiting-on-june.html"><img src="images/video-waitin-on-june-530x300.jpg"></a>
+                    <a href="videos/waiting-on-june.html">Waiting On June — Holly Williams</a>
+                </article>
+                <article>
+                    <a href="videos/numbered-doors.html"><img src="images/video-numbered-doors.jpg"></a>
+                    <a href="videos/numbered-doors.html">Numbered Doors — Lori McKenna</a>
+                </article>
+                <article>
+                    <a href="videos/hollywood.html"><img src="images/video-hollywood.jpg"></a>
+                    <a href="videos/hollywood.html">Hollywood – Robyn Ludwick</a>
+                </article>
+                <article>
+                    <a href="videos/youngblood.html"><img src="images/video-youngblood.jpg"></a>
+                    <a href="videos/youngblood.html">Youngblood – Heather Christian &#38; the Arbornauts</a>
+                </article>
+            </section>
+        
+        
+            <!-- ABOUT -->
+            <aside class="aside-mini"></aside>
+            <section id="about">
+            <article>
+                <h1>About Obsidian</h1>
+                <p>The Obsidian theme, like the naturally occurring volcanic glass of the same name, possesses an inherent allure that's stylish in appearance and practical in purpose. With distinctive background options and various customization possibilities, Obsidian makes it easy to create the ultimate hub for your online identity.</p>
+            </article>
+            <article>
+                <h1>Vivienne's Omitted Line</h1>    
+                <a href="musics/viviennes-omitted-line.html"><img src="uploads/mp3/aeolus/viviennes-s-omitted-line/cover.jpg"></a>
+            </article>
+            <article>
+                <h1>Recent Posts</h1>    
+                <a href="#">Welcome to our redesigned website</a>
+                <em>April 1, 2015</em>
+                <a href="#">New tour dates posted</a>
+                <em>December 16, 2014</em>
+                <a href="#">History of Popular Music</a>
+                <em>December 15, 2014</em>
+            </article>
+            </section>
+            
+            
+            <!-- FOOTER -->    
+            <aside></aside>
+            <footer>
+                <ul>
+                    <li><a href="#"><i class="themicon themicon-twitter"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-facebook"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-instagram"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-youtube"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-vimeo"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-amazon"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-apple"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-soundcloud"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-rdio"></i></a></li>
+                    <li><a href="#"><i class="themicon themicon-spotify"></i></a></li>
+                </ul>
+                <p>Obsidian music theme by Equipe 4</p>
+            </footer>   
+            
+            
+        </div><!-- WRAPPER -->
+
+        <!-- PLAYER AUDIO -->
+        <div id="player">
+            <i class="fa fa-step-backward" id="prev"></i>
+            <i class="fa fa-play" id="play"></i>
+            <i class="fa fa-step-forward" id="next"></i>
+            <img src="images/album-01.jpg" id="cover"/>     
+            <div id="percent">
+                <div id="timeline">
+                    <p id="title">Aeolus - She Threw Herself Into the Sea</p>
+                    <p id="time">00:00/2:18</p>
+                </div>
+            </div>
+            <div id="clearer-g"></div>
+            <i class="fa fa-volume-up" id="btn-vol"></i>
+            <div id="clearer-d"></div>
+            <i class="fa fa-bars" id="togglepl"></i>
+            <i class="fa fa-caret-left" id="caret"></i>
+        </div>
+        <div id="volume">
+            <input type="range" min="0" max="100" value="50" id="slider" />
+        </div>
+        <div id="playlist" class="hidden">
+            <ul audiourl="uploads/mp3/aeolus/morning-star/05-She-Threw-Herself-Into-the-Sea.mp3" cover="uploads/mp3/aeolus/morning-star/cover.jpg" class="active-pl">
+                <li>1</li>
+                <li>She Threw Herself into the Sea</li>
+                <li>Aeolus</li>
+                <li>2:18</li>
+            </ul>
+            <ul audiourl="uploads/mp3/aeolus/viviennes-s-omitted-line/07-What-the-Thunder-Said.mp3" cover="uploads/mp3/aeolus/viviennes-s-omitted-line/cover.jpg">
+                <li>2</li>
+                <li>What the Thunder Said</li>
+                <li>Aeolus</li>
+                <li>3:20</li>
+            </ul>
+            <ul audiourl="uploads/mp3/aeolus/gravitational-pull/07-Province-of-All-Mankind.mp3" cover="uploads/mp3/aeolus/gravitational-pull/cover.jpg">
+                <li>3</li>
+                <li>Province of All Mankind</li>
+                <li>Aeolus</li>
+                <li>2:01</li>
+            </ul>
+            <ul audiourl="uploads/mp3/aeolus/gravitational-pull/02-Bright-Ancient-Highlands.mp3" cover="uploads/mp3/aeolus/gravitational-pull/cover.jpg">
+                <li>4</li>
+                <li>Bright Ancient Highlands</li>
+                <li>Aeolus</li>
+                <li>2:06</li>
+            </ul>
+            <ul audiourl="uploads/mp3/aeolus/gravitational-pull/08-Temporary-Satellites.mp3" cover="uploads/mp3/aeolus/gravitational-pull/cover.jpg">
+                <li>5</li>
+                <li>Temporary Satellites</li>
+                <li>Aeolus</li>
+                <li>2:34</li>
+            </ul>
+            <ul audiourl="uploads/mp3/aeolus/viviennes-s-omitted-line/08-The-Wounded-King.mp3" cover="uploads/mp3/aeolus/viviennes-s-omitted-line/cover.jpg">
+                <li>6</li>
+                <li>The Wounded King</li>
+                <li>Aeolus</li>
+                <li>2:28</li>
+            </ul>
+       </div>
+        
+        
+        <!-- Javascripts -->
+        <script src="js/player.js"></script>
+
+    </body>
+
+</html>
